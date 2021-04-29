@@ -38,7 +38,7 @@ def gaussian_function(facial_expression, feature_vector):
 
     return -float(probability)
 
-# Return Guassion Decimal Error Rate
+# Return Gaussian Decimal Error Rate
 def error_rate():
     error_count = []
     # Pass each row[i] of the test data to the gaussian function
